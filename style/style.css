@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: RGB(245,246,246);
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Formulario {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    padding: 2%;
+}
+input {
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+input[type="text"] {
+    width: 49.3%;
+}
+input[type="tel"], input[type="password"] {
+    width: 100%;
+}
+input[type="number"] {
+    width: 32.3%;
+}
+select {
+    width: 32.3%;
+    height: 30px;
+    border-radius: 5px;
+}
+label {
+    display: inline-block;
+    margin-top: 5px;
+}
+.checkbox {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 32.3%;
+    position: relative;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+input[type="radio"] {
+    position: absolute;
+    top:-6px;
+    right: 5px;
+}
+p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+p span {
+    color:blue;
+}
+button {
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: RGB(0,164,0);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
